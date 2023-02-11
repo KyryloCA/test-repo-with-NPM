@@ -5,7 +5,8 @@
   "homepage": "https://KyryloCA.github.io/test-repo-with-NPM",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "dev": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
